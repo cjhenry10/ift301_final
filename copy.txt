@@ -1,0 +1,84 @@
+***************
+page 1
+***************
+---Music Production---
+--Want to learn how to make music fast?--
+Does your life lack creative expression? Are you bored with the repetitiveness of your daily life? How would you like to change that?
+
+Did you know that you can create complete songs from the comfort of your own home using just a computer? Guitar, piano, synthesizer, or full orchestra, you can have all of these instruments and more at your disposal.
+
+What this website aims to do is introduce you to this activity and start you off with the basics of creating your own music. Hopefully by the end of this guide, you will be well on your way to creating your own masterpieces to share with your family, friends, and the world.
+
+***************
+page 2
+***************
+---Choosing a DAW---
+--What is a DAW?--
+DAW stands for Digital Audio Workstation and is the program that you will use to create music from your computer. 
+
+There are several different DAWs available to use such as (list) GarageBand, Logic Pro, Abelton Live, Pro Tools, FL Studio
+
+While these DAWs are all different, you can create high quality music with each of them. It is a good idea to pick a DAW that looks interesting to you and stick with it so that you can become an expert. However, the more you learn, the easier it is to switch between DAWs once you start understanding the concepts.
+
+--Different DAWs--
+GarageBand and Logic Pro are DAWs available for Apple's macOS. GarageBand comes preloaded on many apple products for free and is a very simple DAW that is great for beginners. Logic is a more advanced, paid DAW that has a similar interface to GarageBand, but has many more features and is used by many industry professionals such as Taylor Swift, Chris Martin of Coldplay, and Ed Sheeran. Logic Pro is available for $199.99. Remember this is for macOS only.
+
+Abelton Live is a DAW that is known for its live recording functionality. It is also a very popular choice for electronic dance music production The intro version is available for $99. Some influential Abelton users are artists deadmau5, David Guetta, and Marshmello.
+
+Pro Tools is a DAW from the company Avid. It is available only through a subscription service and can be 30 to 35 dollars a month or 200 to 300 dollars a year, depending on your plan. Some notable users of Pro Tools include Kanye West, Dr. Dre, Timbaland, and Rick Rubin.
+
+FL Studio is a DAW from the company Image Line. It is a popular choice among hip hop producers, but it is suitable for all genres. The cheapest edition is $99, and there is also a free trial available. Some artists who use FL Studio include Avicii, Lex Luger, Martin Garrix, and Boi-1da.
+
+--FL Studio--
+For this tutorial, we will be using FL Studio. This is the DAW I know the most about, and there is a free trial available that anyone can use. I picked FL Studio because of the free trial, and how the interface looked. There are also tons of tutorials on YouTube with much more information than I will provide here. That is where I learned everything, and I will show you some of the songs I have made to let you hear what is possible with this software and a bit of creativity.
+
+***************
+page 3
+***************
+---Getting Started---
+--Choosing a Genre and BPM--
+You can choose any genre you want to start making music, but here are a few suggestions: Electronic Dance Music(EDM) - examples: avicii, deadmau5, martin garrix; Hip Hop - examples: Dr Dre, Kanye West, Lex Luger; Pop - examples: Coldplay, Ed Sheeran, Taylor Swift.
+
+BPM stands for beats per minute, and is the speed with which your music plays. Two BPMs that I often use are 120-128 for EDM and 80-90 for Hip Hop.
+***table?***
+--how to create a drum pattern--
+
+--choosing your own sounds--
+
+***************
+page 4 (switch with page 5?)
+***************
+---Music Theory Basics---
+--Musical notes and scales--
+
+--chords--
+
+--fl studio piano roll--
+
+
+***************
+page 5 (switch with page 4?)
+***************
+---Instruments and Effects---
+--How to choose a sound---
+
+--creating a chord progression--
+
+--effects--
+
+***************
+page 6
+***************
+---Song Creation---
+--Going from loop to song--
+
+--Basic song structure--
+
+--applying it to fl studio project--
+
+
+***************
+page 7
+***************
+---Contact---
+-contact form with 5 inputs and at least 3 different types of controls-

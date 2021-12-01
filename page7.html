@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Connor Henry 84106 - Music Production</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="favicon/site.webmanifest"/>
+
+    <link rel="stylesheet" href="shoelace.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bgcss/bg7.css"/>
+    <script src="script.js" async></script>
+    <!-- 
+        Connor Henry 11/30/2021
+     -->
+</head>
+<body>
+    <nav class="navbar">
+        <a href="javascript:void(0);" class="toggle-button" onclick="responsive()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="responsive">
+            <ul>
+                <li class="center"><a href="index.html">Music Production</a></li>
+                <li class="center"><a href="page2.html">Choosing a DAW</a></li>
+                <li class="center"><a href="page3.html">Getting Started</a></li>
+                <li class="center"><a href="page4.html">Instruments and Effects</a></li>
+                <li class="center"><a href="page5.html">Music Theory Basics</a></li>
+                <li class="center"><a href="page6.html">Song Creation</a></li>
+                <li class="center"><a href="page7.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container center">
+        <div class="card">
+            <h1>Contact</h1>
+        </div>
+        <br/>
+        <div class="card" style="width: 50vw;">
+            <p id="drop">Would you like to learn more about music production? Here are some links to some of the people who have taught me. They are all YouTube channels and they create content related to music and music production.</p>
+            <dl>
+                <dt>
+                    <a href="https://www.youtube.com/c/inthemix" class="no-decor">In The Mix</a>
+                </dt>
+                <dd>
+                    This channel is one of my favorites. They do their music exclusively in <strong>FL Studio</strong> and have some great tutorials on topics from specific concepts and plugins to song structure in general. I <em>highly</em> recommend this channel.
+                </dd>
+
+                <dt>
+                    <a href="https://www.youtube.com/c/SynthHackerTV" class="no-decor">SynthHacker</a>
+                </dt>
+                <dd>
+                    This channel is a bit more niche. There are many tutorials available for a popular plugin called <strong>Serum</strong>, which is a virtual synth that has many customizable options. The channel has guides on how to create the exact sounds from popular songs, mostly within the electronic music genre.
+                </dd>
+
+                <dt>
+                    <a href="https://www.youtube.com/c/AdamNeely" class="no-decor">Adam Neely</a>
+                </dt>
+                <dd>
+                    I enjoy this channel for more general music related topics. Adam is a trained jazz musician and does video essays on musical concepts, as well as question and answer videos through his social media accounts. This channel is more broadly music related, very good for music theory related information, but I have gotten some ideas for songs from some of the content in his videos.
+                </dd>
+            </dl>
+        </div>
+        <div class="card" style="width: 50vw;">
+            <p>Have any questions about information contained in this website? Reach out to me with the form below and I will get back to you via your preferred contact method.</p>
+        </div>
+        <div class="card">
+            <!-- I don't love this form but I'm on a deadline -->
+            <form id="contact-form">
+                <div style="float: left; margin-right: 20px;">
+                    <label for="fName">First Name</label>
+                    <input type="text" name="fName">
+                </div>
+                <div style="float: left;">
+                    <label for="lName">Last Name</label>
+                    <input type="text" name="lName">
+                </div>
+                <br style="clear: both;"/>
+                <div style="float: left; margin-right: 20px;">
+                    <label for="telephone">Phone Number</label>
+                    <input type="tel" name="telephone">
+                </div>
+                <div style="float: left;">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <br style="clear: both;"/>
+                <span>Preferred Contact Method</span>
+                <div style="float: left; margin-right: 20px;">
+                    <input type="checkbox" name="phone">
+                    <label for="phone">Phone</label>
+                </div>
+                <div style="float: left;">
+                    <input type="checkbox" name="mail">
+                    <label for="mail">Email</label>
+                </div>
+                <br style="clear: both;"/>
+                <span>Write Your Message Here</span>
+                <textarea name="message" id="message" cols="30" rows="15"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    <button id="totop" onclick="scrollUp()">Back to Top</button>
+</body>
+<footer><a href="page6.html">&larr;PREV</a> Connor Henry IFT301-84106 <a href="#" style="visibility: hidden;">NEXT&rarr;</a></footer>
+</html>

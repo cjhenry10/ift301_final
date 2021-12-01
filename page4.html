@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Connor Henry 84106 - Music Production</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="favicon/site.webmanifest"/>
+
+    <link rel="stylesheet" href="shoelace.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bgcss/bg4.css"/>
+    <script src="script.js" async></script>
+    <!-- 
+        Connor Henry 11/30/2021
+     -->
+</head>
+<body>
+    <nav class="navbar">
+        <a href="javascript:void(0);" class="toggle-button" onclick="responsive()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="responsive">
+            <ul>
+                <li class="center"><a href="index.html">Music Production</a></li>
+                <li class="center"><a href="page2.html">Choosing a DAW</a></li>
+                <li class="center"><a href="page3.html">Getting Started</a></li>
+                <li class="center"><a href="page4.html">Instruments and Effects</a></li>
+                <li class="center"><a href="page5.html">Music Theory Basics</a></li>
+                <li class="center"><a href="page6.html">Song Creation</a></li>
+                <li class="center"><a href="page7.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container center">
+        <div class="card">
+            <h1>Instruments and Effects</h1>
+        </div>
+        <br/>
+        <div class="card">
+            <h2>Adding Instruments to Your Track</h2>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <section id="one">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <p>We have a simple drum loop going, now we want to add something else. For the sake of the tutorial, we will be using a simple piano sound. Follow these steps:</p>
+                                <ol>
+                                    <li>In the top right corner, click <em>Add</em> to open up the drop down menu.</li>
+                                    <li>Many of these listed items are instruments, but find the one that says <em>FL Keys</em> and click on it to add it to our Channel Rack.</li>
+                                    <li>Once the <em>FL Keys</em> window pops up, you can click on the piano keys displayed to play a sound. Dont worry about all of the knobs for now. Those are beyond the scope of this tutorial.</li>
+                                    <li>Go back to your channel rack. Notice how the numbers 1 through 4 are listed next to the sound names of our drums. Our piano sound doesn't have a number. Click on the dashes and drag down until the number 5 is in that box. This will come in handy for the next section.</li>
+                                </ol>
+                                
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card">
+                                <img class="fl" src="img/fls3.png" alt="FL Studio">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="two">
+                <div class="row">
+                    <div class="col-12 center">
+                        <div class="card">
+                            <h2>Effects</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <h3>What are Effects</h3>
+                            <p>In this context, effects are things that you can add to your track to change the way that things sounds. One example of an effect is called delay, which is like an echo. A very popular effect is called reverb, which gives a sound a feeling like is is in a building like a drum room or cathedral. Effects like filters and equalizers can alter the frequency of a sound.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <h3>Adding Effects</h3>
+                            <p>Remember earlier when we made sure to put the number 5 next to our piano sound? This is where we need that. We are going to add some effects to our piano through the Mixer Rack</p>
+                            <ol>
+                                <li>Open the Mixer Rack by pressing <strong>F9.</strong></li>
+                                <li>Click on the number 5. This is where we routed out piano sound earlier.</li>
+                                <li>On the left, click on <em>Slot 1</em> and select <em>Fruity Delay 3</em>. Click on one of the piano keys. Do you hear the echo? Click on the green light next to where we just added the delay effect to turn it off for now.</li>
+                                <li>Click on <em>Slot 2</em> and then select <em>Fruity Reeverb 2</em>. On the interface that pops up, click on the right arrow where it says <strong>Presets</strong>. It should now say <strong>Cathedral</strong> in that same area. You may notice some of the knobs moved on the interface. Play a piano key again. Hear how it sounds like it is far away? <em>Like on the other side of a big cathedral.</em> We will leave the reverb effect on for now.</li>
+                            </ol>
+                            <p>Your screen should look similar to the picture below.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <img class="fl" src="img/fls4.png" alt="FL Studio">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <button id="totop" onclick="scrollUp()">Back to Top</button>
+</body>
+<footer><a href="page3.html">&larr;PREV</a> Connor Henry IFT301-84106 <a href="page5.html">NEXT&rarr;</a></footer>
+</html>
